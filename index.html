@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dine Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--------------------Top Bar-------------------->
+    <div class="top-bar header-wrapper" id="home">
+      <div class="container top-bar-container">
+        <div class="top-left">179 Murphy Court Riverside, CA 92501</div>
+        <div class="top-right">123.456.7890 | Everyday : 10 AM to 10 PM</div>
+      </div>
+    </div>
+
+    <!--------------------Navigation Bar-------------------->
+    <nav class="navbar header-wrapper">
+      <div class="container navbar-container">
+        <div class="logo">
+          DINE<br />
+          <span>RESTAURANT</span>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <a href="#contact" class="btn-outline">Book a Table</a>
+      </div>
+    </nav>
+
+    <!-------------------------Hero Section-------------------->
+
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>A Symphony of flavors in every dish</h1>
+        <p class="subheading">Experience the art of fine dining with us</p>
+        <a href="#contact" class="btn-hero">Contact Today</a>
+      </div>
+    </section>
+
+    <!------------------------Second Section-------------------->
+
+    <section class="content-section">
+      <div class="container about-container">
+        <div class="about-left slide-in-left">
+          <h2>Welcome to Dine Restaurant</h2>
+          <p>
+            At Dine, we blend exquisite flavors, premium ingredients, and a cozy
+            atmosphere to bring you an unforgettable dining experience. From
+            classic favorites to modern delights, each dish is a celebration of
+            taste.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-right slide-in-right">
+        <div class="about-image-box">
+          <img src="hero3.jpg" alt="Chef cooking in kitchen" />
+        </div>
+      </div>
+    </section>
+
+    <!----------------------About Us---------------->
+
+    <section class="visit-box-section" id="contact">
+      <div class="container slide-in-up">
+        <div class="visit-box">
+          <h2>Visit Us</h2>
+          <p class="visit-description">
+            Come enjoy a delicious meal in a warm and welcoming atmosphere.
+            Whether you're celebrating or just craving great food, we’re here
+            for you!
+          </p>
+
+          <div class="visit-info">
+            <div class="visit-item">
+              <h4>📍 Address</h4>
+              <p>179 Murphy Court, Riverside, CA 92501</p>
+            </div>
+            <div class="visit-item">
+              <h4>🕒 Opening Hours</h4>
+              <p>Everyday: 10:00 AM – 10:00 PM</p>
+            </div>
+            <div class="visit-item">
+              <h4>📞 Phone</h4>
+              <p>123.456.7890</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------- Today's Best Deals Section ------------------>
+
+    <section class="carousel-section slide-in-up" id="menu">
+      <h2>Today's Best Deals</h2>
+      <div class="carousel slide-in-left">
+        <div class="carousel-items">
+          <div class="carousel-item">
+            <div class="offer-card blue">
+              <div class="offer-tag">50% Off</div>
+              <p class="offer-title">Special offer</p>
+              <p class="offer-description">
+                An epicurean adventure awaits for your lunch unleashed!
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="offer-card red">
+              <div class="offer-tag">50% Off</div>
+              <p class="offer-title">Special offer</p>
+              <p class="offer-description">
+                Delight your palate with unbeatable offers!
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="offer-card blue">
+              <div class="offer-tag">50% Off</div>
+              <p class="offer-title">Special offer</p>
+              <p class="offer-description">
+                A delicious surprise for every appetite!
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="offer-card green">
+              <div class="offer-tag">50% Off</div>
+              <p class="offer-title">Special offer</p>
+              <p class="offer-description">
+                Fresh spring deals to brighten your day!
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="offer-card red">
+              <div class="offer-tag">50% Off</div>
+              <p class="offer-title">Special offer</p>
+              <p class="offer-description">
+                Taste the special season’s delight at half price!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!------------------------------------ Menu Slide --------------------->
+
+    <section class="menu-section slide-in-left">
+      <h2>Our delicious dishes</h2>
+
+      <nav class="menu-tabs">
+        <button class="tab active" data-target="starters">Starters</button>
+        <button class="tab" data-target="main-course">Main Course</button>
+        <button class="tab" data-target="lunch">Lunch</button>
+        <button class="tab" data-target="desserts">Desserts</button>
+        <button class="tab" data-target="drinks">Drinks</button>
+      </nav>
+
+      <div class="menu-items-container">
+        <div class="menu-items active" id="starters">
+          <div class="menu-item">
+            <img src="bruschetta.jpg" alt="Bruschetta" />
+            <div>
+              <h4>Bruschetta</h4>
+              <p>
+                Toasted bread topped with fresh tomatoes, basil, garlic, and
+                drizzled with olive oil.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="chicken-wings.jpg" alt="Chicken Wings" />
+            <div>
+              <h4>Chicken Wings</h4>
+              <p>
+                Crispy chicken wings served with a variety of flavorful sauces.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="caprese-salad.jpg" alt="Caprese Salad" />
+            <div>
+              <h4>Caprese Salad</h4>
+              <p>
+                Slices of fresh mozzarella, tomatoes, and basil leaves, drizzled
+                with balsamic glaze.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="hummus.jpg" alt="Hummus" />
+            <div>
+              <h4>Hummus</h4>
+              <p>
+                A smooth dip made from chickpeas, tahini, lemon juice, and
+                garlic, served with pita bread.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-items" id="main-course">
+          <div class="menu-item">
+            <img src="grilled-steak.jpg" alt="Grilled Steak" />
+            <div>
+              <h4>Grilled Steak</h4>
+              <p>
+                Juicy sirloin steak grilled to perfection with herbs and spices.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="salmon.jpg" alt="Salmon" />
+            <div>
+              <h4>Salmon</h4>
+              <p>
+                Fresh salmon fillet served with lemon butter sauce and seasonal
+                veggies.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="pasta.jpg" alt="Italian Pasta" />
+            <div>
+              <h4>Italian Pasta</h4>
+              <p>
+                Classic pasta served with rich tomato sauce and parmesan cheese.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="vegetable-grill.jpg" alt="Grilled Vegetables" />
+            <div>
+              <h4>Grilled Vegetables</h4>
+              <p>
+                Seasonal vegetables grilled to perfection and served with herb
+                dressing.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-items" id="lunch">
+          <div class="menu-item">
+            <img src="caesar-salad.jpg" alt="Caesar Salad" />
+            <div>
+              <h4>Caesar Salad</h4>
+              <p>
+                Crisp romaine lettuce with parmesan, croutons, and Caesar
+                dressing.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="club-sandwich.jpg" alt="Club Sandwich" />
+            <div>
+              <h4>Club Sandwich</h4>
+              <p>
+                Triple-layered sandwich with chicken, bacon, lettuce, and
+                tomatoes.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="tomato-soup.jpg" alt="Tomato Soup" />
+            <div>
+              <h4>Tomato Soup</h4>
+              <p>
+                Warm and creamy tomato soup served with fresh herbs and bread.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="fish-tacos.jpg" alt="Fish Tacos" />
+            <div>
+              <h4>Fish Tacos</h4>
+              <p>
+                Grilled fish served in soft tortillas with fresh salsa and lime.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-items" id="desserts">
+          <div class="menu-item">
+            <img src="cheesecake.jpg" alt="Cheesecake" />
+            <div>
+              <h4>Cheesecake</h4>
+              <p>Classic creamy cheesecake with a graham cracker crust.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="chocolate-mousse.jpg" alt="Chocolate Mousse" />
+            <div>
+              <h4>Chocolate Mousse</h4>
+              <p>Rich dark chocolate mousse topped with whipped cream.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="ice-cream.jpg" alt="Ice Cream" />
+            <div>
+              <h4>Ice Cream</h4>
+              <p>Classic vanilla ice cream served with fruit toppings.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="fruit-tart.jpg" alt="Fruit Tart" />
+            <div>
+              <h4>Fruit Tart</h4>
+              <p>Fresh seasonal fruit tart with creamy custard filling.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-items" id="drinks">
+          <div class="menu-item">
+            <img src="lemonade.jpg" alt="Lemonade" />
+            <div>
+              <h4>Lemonade</h4>
+              <p>Refreshing homemade lemonade with a hint of mint.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="espresso.jpg" alt="Espresso" />
+            <div>
+              <h4>Espresso</h4>
+              <p>Strong espresso shot made from freshly ground coffee beans.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="smoothie.jpg" alt="Smoothie" />
+            <div>
+              <h4>Smoothie</h4>
+              <p>Fresh fruit smoothie blended with yogurt and honey.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="iced-tea.jpg" alt="Iced Tea" />
+            <div>
+              <h4>Iced Tea</h4>
+              <p>Chilled refreshing iced tea with lemon and mint.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------------- Why Choose Us  ------------------------------------->
+
+    <section class="why-choose-section" id="about">
+      <h2>Why choose us</h2>
+      <p class="why-desc">
+        Crafting memories bite by bite for remarkable experiences
+      </p>
+      <div class="why-features slide-in-left">
+        <div class="why-feature">
+          <div class="why-icon">
+            <img src="icons/fresh-food.png" alt="Fresh Food" />
+          </div>
+          <h4>Fresh Food</h4>
+          <p>The freshest and highest quality produce available.</p>
+        </div>
+        <div class="why-feature">
+          <div class="why-icon">
+            <img src="icons/chefs-special.png" alt="Chef's Special" />
+          </div>
+          <h4>Chef's Special</h4>
+          <p>The freshest and highest quality produce available.</p>
+        </div>
+        <div class="why-feature">
+          <div class="why-icon">
+            <img src="icons/exquisite-culinary.png" alt="Exquisite Culinary" />
+          </div>
+          <h4>Exquisite Culinary</h4>
+          <p>The freshest and highest quality produce available.</p>
+        </div>
+        <div class="why-feature">
+          <div class="why-icon">
+            <img src="icons/no-hidden-fees.png" alt="No Hidden Fees" />
+          </div>
+          <h4>No Hidden Fees</h4>
+          <p>The freshest and highest quality produce available.</p>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------- Testimonial --------------------------->
+
+    <section class="testimonial-section">
+      <div class="testimonial-stars slide-in-right">★★★★★</div>
+      <div class="testimonial-text slide-in-left">
+        "I highly recommend this restaurant for anyone looking for a delightful
+        culinary adventure. The menu offers a great variety, and the flavors are
+        spot-on."
+      </div>
+      <div class="testimonial-card-stack">
+        <div class="testimonial-card active">
+          <img
+            class="testimonial-avatar"
+            src="reviewer.jpg"
+            alt="Reviewer photo"
+          />
+          <div>
+            <div class="testimonial-name">Rebecca Gutierrez</div>
+            <div class="testimonial-role">Seafood Paella</div>
+          </div>
+        </div>
+        <!-- You can add more testimonial cards here for the slider effect -->
+      </div>
+    </section>
+
+    <!----------------------------------------- Footer ------------------------------->
+    <footer class="footer-section">
+      <div class="footer-main">
+        <div class="footer-col logo-side">
+          <div class="footer-logo">
+            <span class="footer-brand-main">DINE</span>
+            <span class="footer-brand-sub">RESTAURANT</span>
+          </div>
+        </div>
+        <div class="footer-col info-side">
+          <div class="footer-contact">
+            <div class="footer-contact-phone">
+              <span class="footer-icon"></span>
+              <span class="footer-phone"><b>123.456.7890</b></span>
+            </div>
+            <div class="footer-contact-hours">Everyday : 10 AM to 10 PM</div>
+          </div>
+          <!-- Book a Table button removed -->
+        </div>
+        <div class="footer-col nav-side">
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">License</a></li>
+              <li><a href="#">Changelog</a></li>
+            </ul>
+            <ul class="footer-social">
+              <li>Social media</li>
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          Copyright © Dine. All rights reserved. Designed by AvikGOAT
+        </div>
+        <div class="footer-bottom-right">Made By AvikGOAT</div>
+      </div>
+    </footer>
+
+    <!-------------------------------------JS-------------------------------->
+    <script>
+      // Carousel JS
+
+      let currentIndex = 0;
+
+      const items = document.querySelectorAll(".carousel-item");
+      const dots = document.querySelectorAll(".dot");
+      const carouselItems = document.querySelector(".carousel-items");
+
+      function changeSlide(index) {
+        if (index >= items.length) index = 0;
+        if (index < 0) index = items.length - 1;
+
+        // 33.3333% is width of one slide
+        const offset = -index * 33.3333;
+        carouselItems.style.transform = `translateX(${offset}%)`;
+
+        dots.forEach((dot) => dot.classList.remove("active"));
+        dots[index].classList.add("active");
+
+        currentIndex = index;
+      }
+
+      // Dot click event listeners
+      dots.forEach((dot, i) => {
+        dot.addEventListener("click", () => {
+          changeSlide(i);
+        });
+      });
+
+      // Auto slide every 4 seconds
+      setInterval(() => {
+        changeSlide(currentIndex + 1);
+      }, 4000);
+
+      // Initialize first slide
+      changeSlide(0);
+
+      // Tab functionality
+      const tabs = document.querySelectorAll(".menu-tabs .tab");
+      const menuItemsContainers = document.querySelectorAll(".menu-items");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          // Remove active classes from all tabs and menu content
+          tabs.forEach((t) => t.classList.remove("active"));
+          menuItemsContainers.forEach((container) =>
+            container.classList.remove("active")
+          );
+
+          // Add active class to clicked tab and corresponding menu content
+          tab.classList.add("active");
+          const target = tab.getAttribute("data-target");
+          document.getElementById(target).classList.add("active");
+        });
+      });
+
+      /*----------------------tab section animation js----------------------*/
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      /*----------------------fade in animation js----------------------*/
+
+      // Fade-in effect using IntersectionObserver
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.4, // Adjust threshold to control when animation triggers
+        }
+      );
+
+      document
+        .querySelectorAll(
+          ".fade-in, .slide-in-left, .slide-in-right, .slide-in-up"
+        )
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>
